@@ -1,130 +1,93 @@
- body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+ header{
+    background-color: black;
+    width: 100%;
+    height:30px;
+    text-align: end;
+    padding-right: 9px; 
+    padding-top: 6px;   
+    position:sticky;
+    top: 0px; 
+    left:0px;
     
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+ }
+   
+  a{
+    color: white;
+    margin: 8px;
+    /* padding-bottom:10px ; */
+    text-decoration:none;
+    
+    
+  }
+  a:hover{
+    color:blue;
+  }
+  .liblogo{
+    position:absolute;
+    top:-10px;
+    left: 13px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .section{
+    background-attachment:rgb(191, 191, 191);
 
-    #navbar {
-      position: sticky;
-      top: 0;
-      background-color: #333;
-      padding: 10px;
-      color: #fff;
-      height: 30px;
-    }
+  }
 
-    #navbar a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-      padding-right: 25px;
-    }
+ 
+  table ,tr, td,th {
+    border: solid 1px black;
+    border-collapse:collapse
+    
+  }
+  .title{
+    color:blueviolet;
+  }
+  div{
+     background-color: white;
+     width: 710px;
+     height: 540px;
+     /* width: 500px; */
+     /* position:relative;
+     left: 0 ,auto; */
+     margin: auto;
+     box-shadow: 1px 1px 6px 0 gray ;
 
-    #navbar #navbar-right {
-      float: right;
-      margin-top: 10px;
-    }
-
-    #books {
-      margin-top: 60px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 20px;
-    }
-
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .nested-table {
-      border-collapse: collapse;
-    }
-
-    .nested-table td {
-      padding: 2px 4px;
-      border: none;
-    }
-
-    .nested-table td:first-child {
-      font-weight: bold;
-      padding-right: 10px;
-    }
-
-    #register {
-      margin-top: 60px;
-    } 
-
-    .form-group {
-      margin-bottom: 10px;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="date"],
-    input[type="number"],
-    input[type="password"] {
-      width: 100%;
-      padding: 8px;
-    }
-
-    button[type="submit"] {
-      width: 100%;
-      padding: 8px 16px;
-      background-color: #333;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-    }
-
-    button[type="submit"]:hover {
-      background-color: #555;
-    }
-
-    table {
-    border: 1px solid #ddd;
-    margin: 10px auto;
-    max-width: calc(100% - 10px);
-    }
-
-    th,
-    td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    }
-
-    .nested-table {
-    border: 1px solid #ddd;
-    margin: 10px;
-    }
-
-    .nested-table td {
-    border: 1px solid #ddd;
-    padding: 4px;
-    }
-    #navbar-left{
-        float: left;
-      margin-top: 10px;
-      padding-left: 25px;
-    }
-    .reg{
-        width: 98%;
-    }
+  }
+  .div-first{
+    /* margin: 10px; */
+    position: relative;
+    left: 14px;
+  }
+   input[type]{
+    width: 480px;
+   
+   }
+  .regi{
+      height: 410px;
+  }
+  .regiterheading, label,input{
+    position: relative;
+    left: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    background-color:rgba(128, 243, 243, 0.345);
+  }
+  .undertr{
+    width: 300px;
+    position: relative;
+    margin: 3px;
+  }
+  label::after{
+    content: "*";
+    color: red;
+  }
+  input::placeholder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input[value="Register"]{
+    color:white;
+    background-color:black;
+  }
